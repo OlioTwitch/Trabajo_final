@@ -1,0 +1,109 @@
+
+/**hoja de estilos proyecto final*/
+
+#titulo { 
+
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    -webkit-text-stroke: black 1px;
+
+
+}
+
+#titulo:hover{
+
+color: red;
+
+}
+
+.division1 {
+
+    border: 2px solid black;
+    margin-right: 1200px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    background-color: azure;
+}
+
+.clasificacion1 {
+
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-size: 40px;
+    -webkit-text-stroke: black 1px;
+    border-left: 6px solid black;
+    padding-left: 10px;
+
+}
+
+.cuerpo1 {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 10px;
+    
+}
+
+.cuerpo2 {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-left: 30px
+    
+}
+
+.division2{
+
+    display: inline-block;
+    border: 2px solid black;
+    margin-top: 60px;
+    padding-right: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    background-color: azure;
+    width: 900px;
+    height: 500px;
+}
+
+.division3{
+
+    display: inline-block;
+    border: 2px solid black;
+    margin-top: 60px;
+    padding-right: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    background-color: azure;
+    width: 500px;
+    height: 500px;
+}
+
+.clasificacion2 {
+
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-size: 30px;
+    -webkit-text-stroke: black 1px;
+    border-left: 6px solid black;
+    padding-left: 10px;
+
+}
+
+.contenedor{
+
+   display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.foto{
+
+float:right;
+margin-right:0px 30px 0px 30px; 
+
+}
